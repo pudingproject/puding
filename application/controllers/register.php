@@ -11,11 +11,20 @@
       $this->loadModel('member_model');
       $this->loadModel('kontributor_model');
     }
+    function index()
+    {
+      $data = array(
+                       'title'		=> 'Register | 9Coding',
+                        'content'	=> 'register_member'
+                    );
+      $this->loadView($data);
+    }
     //registrasi member
     function member(){
       if($this->POST('daftar')){
         $username =$this->POST('username');
         $password =$this->POST('password');
+        //$email    =$this->POST('email');
 
         if (isset($username,$password)){
           if($this->POST('password')==$this->POST('password2')){
@@ -32,7 +41,7 @@
                 'password'	=> md5($password),
                 'role'      => 'member'
               );
-              $this->Pemilik_model->insert($data);
+              $this->member_model->insert($data);
               $this->flashmessage('msg', '<div class="alert alert-success" style="text-align:center;">Registrasi Berhasil</div>');
             }
             else {
@@ -40,12 +49,12 @@
             }
             redirect('login');
           } else {
-				  $this->session->set_flashdata('msg', '<div class="alert alert-danger" style="text-align:center;">Password harus sama dengan Konfirmasi Password</div>');
+				  $this->flashmessage('msg', '<div class="alert alert-danger" style="text-align:center;">Password harus sama dengan Konfirmasi Password</div>');
 					redirect('Register');
 				  }
 
         }	else {
-				$this->session->set_flashdata('msg', '<div class="alert alert-danger" style="text-align:center;">Registrasi Gagal</div>');
+				$this->flashmessage('msg', '<div class="alert alert-danger" style="text-align:center;">Registrasi Gagal</div>');
 				redirect('Register');
 			  }
       } else {
@@ -57,6 +66,7 @@
       if($this->POST('daftar')){
         $username =$this->POST('username');
         $password =$this->POST('password');
+        //$email    =$this->POST('email');
 
         if (isset($username,$password)){
           if($this->POST('password')==$this->POST('password2')){
@@ -73,7 +83,7 @@
                 'password'	=> md5($password),
                 'role'      => 'kontributor'
               );
-              $this->Pemilik_model->insert($data);
+              $this->kontributor_model->insert($data);
               $this->flashmessage('msg', '<div class="alert alert-success" style="text-align:center;">Registrasi Berhasil</div>');
             }
             else {
@@ -81,12 +91,12 @@
             }
             redirect('login');
           } else {
-          $this->session->set_flashdata('msg', '<div class="alert alert-danger" style="text-align:center;">Password harus sama dengan Konfirmasi Password</div>');
+          $this->flashmessage('msg', '<div class="alert alert-danger" style="text-align:center;">Password harus sama dengan Konfirmasi Password</div>');
           redirect('Register');
           }
 
         }	else {
-        $this->session->set_flashdata('msg', '<div class="alert alert-danger" style="text-align:center;">Registrasi Gagal</div>');
+        $this->flashmessage('msg', '<div class="alert alert-danger" style="text-align:center;">Registrasi Gagal</div>');
         redirect('Register');
         }
       } else {

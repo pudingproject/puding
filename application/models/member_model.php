@@ -7,8 +7,8 @@
 
     function __construct()
     {
-      parent::__construct()
-      $this->prime_key="id_user"
+      parent::__construct();
+      $this->prime_key="id_user";
       $this->table_name="user";
     }
   }
