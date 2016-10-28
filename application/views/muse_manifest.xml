@@ -1,0 +1,70 @@
+<manifest alg="2" build="2015.1.1.343" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="projekan.com" resolutions="1x" timestamp="1477037552740">
+  <folder name="css">
+    <file name="site_global.css" crc="379396294"/>
+    <file name="post-ebook.css" crc="358256340" ref="post-ebook"/>
+    <file name="ebook.css" crc="358256340" ref="ebook"/>
+    <file name="daftar-kontributor.css" crc="241254061" ref="daftar-kontributor"/>
+    <file name="kumpulan-ebook.css" crc="358256340" ref="kumpulan-ebook"/>
+    <file name="login-kontributor.css" crc="4275958373" ref="login-kontributor"/>
+    <file name="announcement.css" crc="358256340" ref="announcement"/>
+    <file name="daftar-developer.css" crc="51890292" ref="daftar-developer"/>
+    <file name="term-kontributor.css" crc="358256340" ref="term-kontributor"/>
+    <file name="index.css" crc="3822151500" ref="index"/>
+    <file name="login-developer.css" crc="4265376891" ref="login-developer"/>
+    <file name="term-developer.css" crc="358256340" ref="term-developer"/>
+  </folder>
+  <folder name="assets">
+    <file name="03_amphi_qooqee.mulib" crc="499851671" seo="true" mt="1389373874000"/>
+    <file name="buttony_qooqee_fadingbuttons.mulib" crc="391934244" seo="true" mt="1385139846000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="484278746" ref="index:announcement:ebook:login-developer:daftar-developer:daftar-kontributor:term-developer:term-kontributor:kumpulan-ebook:post-ebook:login-kontributor"/>
+    <file name="museutils.js" crc="531812214" ref="index:announcement:ebook:login-developer:daftar-developer:daftar-kontributor:term-developer:term-kontributor:kumpulan-ebook:post-ebook:login-kontributor"/>
+    <file name="whatinput.js" crc="84559013" ref="index:announcement:ebook:login-developer:daftar-developer:daftar-kontributor:term-developer:term-kontributor:kumpulan-ebook:post-ebook:login-kontributor"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="120190942" ref="index"/>
+    <file name="jquery.watch.js" crc="3866665977" ref="index:announcement:ebook:login-developer:daftar-developer:daftar-kontributor:term-developer:term-kontributor:kumpulan-ebook:post-ebook:login-kontributor"/>
+    <file name="jquery.musemenu.js" crc="3902934130" ref="index:login-developer:daftar-developer:daftar-kontributor:login-kontributor"/>
+    <file name="pie.js" crc="3827607177" ref="index:login-developer:daftar-developer:daftar-kontributor:login-kontributor"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:announcement:ebook:login-developer:daftar-developer:daftar-kontributor:term-developer:term-kontributor:kumpulan-ebook:post-ebook:login-kontributor"/>
+    <file name="webpro.js" crc="4156477058" ref="login-developer:daftar-developer:daftar-kontributor:login-kontributor"/>
+    <file name="form_check.php" crc="373582055" ref="login-developer:daftar-developer:daftar-kontributor:login-kontributor"/>
+    <file name="form_throttle.php" crc="211381018" ref="login-developer:daftar-developer:daftar-kontributor:login-kontributor"/>
+    <file name="form_process.php" crc="6354943" ref="login-developer:daftar-developer:daftar-kontributor:login-kontributor"/>
+    <file name="form-u4801.php" crc="472656695" ref="login-developer"/>
+    <file name="form-u4382.php" crc="4250116867" ref="daftar-developer"/>
+    <file name="form-u4597.php" crc="4236375817" ref="daftar-kontributor"/>
+    <file name="form-u4981.php" crc="4085831415" ref="login-kontributor"/>
+  </folder>
+  <folder name="images">
+    <file name="header2-ieu94-fr.png" crc="296718707" ref="index"/>
+    <file name="header2.jpg" crc="4089679631" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u4820-17.png" crc="166806708" ref="login-developer"/>
+    <file name="u4820-17-r.png" crc="197711938" ref="login-developer"/>
+    <file name="u4820-17-m.png" crc="197711938" ref="login-developer"/>
+    <file name="u4820-17-fs.png" crc="4156723720" ref="login-developer"/>
+    <file name="u4421-17.png" crc="3797700920" ref="daftar-developer"/>
+    <file name="u4421-17-r.png" crc="3840027962" ref="daftar-developer"/>
+    <file name="u4421-17-m.png" crc="3840027962" ref="daftar-developer"/>
+    <file name="u4421-17-fs.png" crc="4179094933" ref="daftar-developer"/>
+    <file name="u4613-17.png" crc="3797700920" ref="daftar-kontributor"/>
+    <file name="u4613-17-r.png" crc="3840027962" ref="daftar-kontributor"/>
+    <file name="u4613-17-m.png" crc="3840027962" ref="daftar-kontributor"/>
+    <file name="u4613-17-fs.png" crc="4179094933" ref="daftar-kontributor"/>
+    <file name="u4993-17.png" crc="166806708" ref="login-kontributor"/>
+    <file name="u4993-17-r.png" crc="197711938" ref="login-kontributor"/>
+    <file name="u4993-17-m.png" crc="197711938" ref="login-kontributor"/>
+    <file name="u4993-17-fs.png" crc="4156723720" ref="login-kontributor"/>
+  </folder>
+  <file name="index.html" crc="4125077866" seo="true" mt="1477035453606" redirect="true"/>
+  <file name="announcement.html" crc="496515207" seo="true" mt="1476794318756" redirect="false"/>
+  <file name="ebook.html" crc="364844879" seo="true" mt="1476794324401" redirect="false"/>
+  <file name="login-developer.html" crc="4230084954" seo="true" mt="1477037020250" redirect="true"/>
+  <file name="daftar-developer.html" crc="3969744871" seo="true" mt="1477037358506" redirect="true"/>
+  <file name="daftar-kontributor.html" crc="3762573929" seo="true" mt="1477037386934" redirect="true"/>
+  <file name="term-developer.html" crc="475189286" seo="true" mt="1476794583783" redirect="false"/>
+  <file name="term-kontributor.html" crc="279456607" seo="true" mt="1476794589150" redirect="false"/>
+  <file name="kumpulan-ebook.html" crc="100192122" seo="true" mt="1476794863418" redirect="false"/>
+  <file name="post-ebook.html" crc="3829920013" seo="true" mt="1476794871284" redirect="false"/>
+  <file name="login-kontributor.html" crc="455682333" seo="true" mt="1477037048407" redirect="true"/>
+</manifest>

@@ -17,7 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://127.0.0.1/9coding';
+$config['base_url'] = 'http://localhost:8080/puding/'; // azhary
+//$config['base_url'] = 'http://127.0.0.1/9coding/';
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +30,7 @@ $config['base_url'] = 'http://127.0.0.1/9coding';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
